@@ -6,11 +6,22 @@ import { motion, useInView } from 'framer-motion'
 
 const projectsData = [
   {
+    id: 0,
+    title: 'NextJS Portfolio',
+    description:
+      'Customized NextJS with TailwindCSS, Embed custom contact us form. Improve lighthouse report score for performance, accessibility, best practices and SEO.',
+    image: '/images/projects/yvesnext.webp',
+    tag: ['All', 'Web'],
+    gitUrl: 'https://github.com/johnyves29/yves-nextjs-portfolio',
+    previewUrl: 'https://yves-nextjs-portfolio.vercel.app/',
+    stack: ['NextJS', 'TailwindCSS']
+  },
+  {
     id: 1,
-    title: 'My Portfolio',
+    title: 'React Portfolio',
     description:
       'Converted HTML5 into ReactJS, Embed custom contact us form. Improve lighthouse report score for performance, accessibility, best practices and SEO.',
-    image: '/images/projects/portfolio.png',
+    image: '/images/projects/portfolio.webp',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/johnyves29/react-portfolio-v3',
     previewUrl: 'https://johnyvesmarin.netlify.app/',
@@ -32,7 +43,7 @@ const projectsData = [
     title: 'APS',
     description:
       'Converted ASP Classic site into modern responsive HTML5 website.',
-    image: '/images/projects/aps.png',
+    image: '/images/projects/aps.webp',
     tag: ['All', 'Web'],
     gitUrl: '',
     previewUrl: 'https://aps-site-sample.netlify.app/',
