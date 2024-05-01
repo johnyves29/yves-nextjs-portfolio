@@ -56,7 +56,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
+          <p className='text-[#cad1d6] text-base sm:text-lg mb-6 lg:text-xl'>
             Empowering your web identity. I love developing web applications
             that help businesses.
           </p>
@@ -116,7 +116,6 @@ const HeroSection = () => {
         >
           <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
             <Image
-              priority={true}
               src='/webdev-min.png'
               alt='hero image'
               className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-auto h-auto'

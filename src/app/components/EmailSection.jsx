@@ -8,9 +8,6 @@ import { useForm, ValidationError } from '@formspree/react'
 
 const EmailSection = () => {
   const [state, handleSubmit] = useForm('mpzkawkn')
-  // if (state.succeeded) {
-  //   return <EmailSection />
-  // }
 
   return (
     <section
@@ -102,7 +99,7 @@ const EmailSection = () => {
           <button
             type='submit'
             disabled={state.submitting}
-            className='bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full mb-3'
+            className='bg-primary-600 hover:bg-primary-700 text-white font-medium py-2.5 px-5 rounded-lg w-full mb-3'
           >
             Send Message
           </button>

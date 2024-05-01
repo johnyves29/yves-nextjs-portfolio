@@ -37,6 +37,7 @@ const Navbar = () => {
             <button
               onClick={() => setNavbarOpen(true)}
               className='flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white'
+              aria-label='Nav'
             >
               <Bars3Icon className='h-5 w-5' />
             </button>
@@ -44,6 +45,7 @@ const Navbar = () => {
             <button
               onClick={() => setNavbarOpen(false)}
               className='flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white'
+              aria-label='Nav'
             >
               <XMarkIcon className='h-5 w-5' />
             </button>
