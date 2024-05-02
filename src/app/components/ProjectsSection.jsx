@@ -13,7 +13,7 @@ const projectsData = [
     image: '/images/projects/yvesnext.webp',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/johnyves29/yves-nextjs-portfolio',
-    previewUrl: 'https://yves-nextjs-portfolio.vercel.app/',
+    previewUrl: 'https://yvesmarin-portfolio.vercel.app/',
     stack: ['NextJS', 'TailwindCSS']
   },
   {
