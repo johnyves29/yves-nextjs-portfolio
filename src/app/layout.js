@@ -14,6 +14,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link rel="preload" href="/webdev-min.webp" as="image" />
+      <link rel="preload" href="/images/about-image.webp" as="image" />
       <body className={inter.className} suppressHydrationWarning={true}>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         {children}

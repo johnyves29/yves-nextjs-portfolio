@@ -1,16 +1,11 @@
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
-// import ProjectsSection from "./components/ProjectsSection";
+import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
 import LoadingSpinner from "./components/LoadingSpinner";
-import React, { Suspense } from "react";
-
-const ProjectsSection = React.lazy(() =>
-  import("./components/ProjectsSection")
-);
 
 export default function Home() {
   return (
@@ -20,9 +15,7 @@ export default function Home() {
         <HeroSection />
         <AchievementsSection />
         <AboutSection />
-        <Suspense fallback={<div>Loading...</div>}>
-          <ProjectsSection />
-        </Suspense>
+        <ProjectsSection />
         <EmailSection />
       </div>
       <Footer />
