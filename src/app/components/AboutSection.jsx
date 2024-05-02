@@ -58,8 +58,7 @@ const AboutSection = () => {
           alt='About Image'
           width={500}
           height={500}
-          placeholder='blur'
-          blurDataURL={'/images/about-image.webp'}
+          loading='lazy'
         />
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
           <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
