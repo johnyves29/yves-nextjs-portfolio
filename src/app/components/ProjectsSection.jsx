@@ -53,7 +53,7 @@ const projectsData = [
     id: 4,
     title: 'Workboard.ph',
     description:
-      'CRUD Operations, User Management, Technical support, and updated software documentation.',
+      'CRUD Operations, User Management, Technical Support, and Update Software Documentation.',
     image: '/images/projects/erp.webp',
     tag: ['All', 'Web'],
     gitUrl: '',

@@ -15,7 +15,7 @@ import { saveAs } from 'file-saver'
 // import 'react-pdf/dist/Page/TextLayer.css'
 
 const HeroSection = () => {
-  const pdfPath = '/yves.pdf'
+  const pdfPath = '/yves-resume.pdf'
   // const [numPages, setNumPages] = useState(null)
   // const [pageNumber, setPageNumber] = useState(1)
   // const [showPDF, setShowPDF] = useState(false)
