@@ -9,7 +9,7 @@ const projectsData = [
     id: 0,
     title: 'NextJS Portfolio',
     description:
-      'Customized NextJS with TailwindCSS, Embed custom contact us form. Improve lighthouse report score for performance, accessibility, best practices and SEO.',
+      'Customized NextJS with TailwindCSS, Embed custom contact us form. Improve page speed report score for performance, accessibility, best practices and SEO.',
     image: '/images/projects/yvesnext.webp',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/johnyves29/yves-nextjs-portfolio',
@@ -20,7 +20,7 @@ const projectsData = [
     id: 1,
     title: 'React Portfolio',
     description:
-      'Converted HTML5 into ReactJS, Embed custom contact us form. Improve lighthouse report score for performance, accessibility, best practices and SEO.',
+      'Converted HTML5 into ReactJS, Embed custom contact us form. Improve page speed report score for performance, accessibility, best practices and SEO.',
     image: '/images/projects/portfolio.webp',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/johnyves29/react-portfolio-v3',
@@ -29,6 +29,17 @@ const projectsData = [
   },
   {
     id: 2,
+    title: 'ThreeJS 3D Portfolio',
+    description:
+      'Created and customized 3D models, camera, positioning and geometries with the use of ThreeJS and React Three Fiber. ',
+    image: '/images/projects/3dport.webp',
+    tag: ['All', 'Web'],
+    gitUrl: '',
+    previewUrl: 'https://yvesmarin-portfolio.netlify.app/',
+    stack: ['ThreeJS', 'ReactJS', 'TailwindCSS']
+  },
+  {
+    id: 3,
     title: 'Wilmar LLC',
     description:
       'Display product info and images from Salsify PXM, Created customized carousel image slider, Developed and customized theme using Stencil CLI.',
@@ -39,7 +50,7 @@ const projectsData = [
     stack: ['Bigcommerce']
   },
   {
-    id: 3,
+    id: 4,
     title: 'APS',
     description:
       'Converted ASP Classic site into modern responsive HTML5 website.',
@@ -50,7 +61,7 @@ const projectsData = [
     stack: ['HTML5', 'Bootstrap']
   },
   {
-    id: 4,
+    id: 5,
     title: 'Workboard.ph',
     description:
       'CRUD Operations, User Management, Technical Support, and Update Software Documentation.',
@@ -61,7 +72,7 @@ const projectsData = [
     stack: ['MEAN', 'Bootstrap']
   },
   {
-    id: 5,
+    id: 6,
     title: 'Mnk.Soft',
     description: 'Redesign the website and add new features.',
     image: '/images/projects/mnk.webp',
@@ -71,7 +82,7 @@ const projectsData = [
     stack: ['MEAN', 'Bootstrap']
   },
   {
-    id: 6,
+    id: 7,
     title: 'ETC23',
     description:
       'Developed website, added plugins, and checked responsiveness for all devices.',
@@ -81,19 +92,19 @@ const projectsData = [
     previewUrl: '',
     stack: ['Wordpress']
   },
+  // {
+  //   id: 8,
+  //   title: 'CE Online',
+  //   description:
+  //     'Developed website and checked responsiveness for all devices.',
+  //   image: '/images/projects/ceonline.webp',
+  //   tag: ['All', 'Web'],
+  //   gitUrl: '',
+  //   previewUrl: '',
+  //   stack: ['Laravel', 'Bootstrap']
+  // },
   {
-    id: 7,
-    title: 'CE Online',
-    description:
-      'Developed website and checked responsiveness for all devices.',
-    image: '/images/projects/ceonline.webp',
-    tag: ['All', 'Web'],
-    gitUrl: '',
-    previewUrl: '',
-    stack: ['Laravel', 'Bootstrap']
-  },
-  {
-    id: 8,
+    id: 9,
     title: 'PH Daily',
     description:
       'Developed website and checked responsiveness for all devices.',
